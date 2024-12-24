@@ -15,7 +15,7 @@ namespace WinFormsApp1
             get { return tipo; }
             set { tipo = value; }
         }
-        public override double ValoreAssicurato => Valore * 5;
+        public override double ValoreAssicurato => CalcolaValoreAssicurato();
         public double CalcolaValoreAssicurato()
         {
             return Valore * 5;

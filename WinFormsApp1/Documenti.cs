@@ -25,6 +25,7 @@ namespace WinFormsApp1
             else
                 return 50;
         }
+        public override double ValoreAssicurato => CalcolaValoreAssicurato();
 
         public Documenti(string identificatore, double valore, string tipo) : base(identificatore, valore)
         {

@@ -8,12 +8,10 @@ namespace WinFormsApp1
 {
     internal class CassettaSpeciale : CassettaDiSicurezza
     {
-        public CassettaSpeciale(string codiceUnivoco, string produttore, string codiceSegreto,string codiceSblocco, bool vuoto, bool isOpen) : base(codiceUnivoco, produttore, codiceSegreto, codiceSblocco, vuoto, isOpen)
-        {
+        OggettoSegreto oggetto;
+        public CassettaSpeciale(string codiceUnivoco, string produttore, string codiceSegreto, string codiceSblocco, bool vuoto, bool isOpen) : base(codiceUnivoco, produttore, codiceSegreto, codiceSblocco, vuoto, isOpen) { }
 
-        }
-
-        public override double getValoreAssicurato(OggettoSegreto oggetto)
+        public override double getValoreAssicurato()
         {
             if (oggetto is Gioielli)
                 return oggetto.ValoreAssicurato * 0.90; 
@@ -22,7 +20,7 @@ namespace WinFormsApp1
             else if (oggetto is Chiavi)
                 return oggetto.ValoreAssicurato * 0.70;
             else
-                return base.getValoreAssicurato(oggetto); //valore assicurato base di un oggetto generico
+                return base.getValoreAssicurato(); //valore assicurato base di un oggetto generico
         }
     }
 }

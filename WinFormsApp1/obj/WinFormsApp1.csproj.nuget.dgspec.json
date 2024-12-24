@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\MRA\\Informatica\\cl4\\Esercitazione-ereditariet-cassetta-di-sicurezza\\WinFormsApp1\\WinFormsApp1.csproj": {}
+    "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\WinFormsApp1.csproj": {}
   },
   "projects": {
-    "F:\\MRA\\Informatica\\cl4\\Esercitazione-ereditariet-cassetta-di-sicurezza\\WinFormsApp1\\WinFormsApp1.csproj": {
+    "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\WinFormsApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\MRA\\Informatica\\cl4\\Esercitazione-ereditariet-cassetta-di-sicurezza\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectUniqueName": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\WinFormsApp1.csproj",
         "projectName": "WinFormsApp1",
-        "projectPath": "F:\\MRA\\Informatica\\cl4\\Esercitazione-ereditariet-cassetta-di-sicurezza\\WinFormsApp1\\WinFormsApp1.csproj",
+        "projectPath": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\WinFormsApp1.csproj",
         "packagesPath": "C:\\Users\\dadav\\.nuget\\packages\\",
-        "outputPath": "F:\\MRA\\Informatica\\cl4\\Esercitazione-ereditariet-cassetta-di-sicurezza\\WinFormsApp1\\obj\\",
+        "outputPath": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dadav\\AppData\\Roaming\\NuGet\\NuGet.Config",

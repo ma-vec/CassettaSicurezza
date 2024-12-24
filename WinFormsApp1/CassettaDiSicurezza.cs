@@ -15,7 +15,13 @@ namespace WinFormsApp1
         private string codiceSblocco;
         private bool vuoto;
         private bool isOpen;
+        private double valore;
         OggettoSegreto oggettoContenuto;
+        
+        public OggettoSegreto OggettoContenuto
+        {
+            get { return oggettoContenuto; }
+        }
         
 
         public string Id
@@ -31,6 +37,7 @@ namespace WinFormsApp1
             get { return vuoto; }
         }
         public bool IsOpen { get { return isOpen; } }
+        public double Valore { get { return valore; } }
 
 
         public void Aggiungi(OggettoSegreto oggetto, string codice)
@@ -39,6 +46,7 @@ namespace WinFormsApp1
                 return;
             oggettoContenuto = oggetto;
             vuoto = false;
+            valore = oggetto.Valore;
         }
 
         public void Rimuovi(string codice)
@@ -46,19 +54,20 @@ namespace WinFormsApp1
             if (oggettoContenuto == null || codice != codiceSegreto) //concettualmente elimina un oggetto solo se contenuto
                 return;
             oggettoContenuto = null;
+            vuoto=true;
+            valore = 10; //valore generico della cassetta se vuota
         }
 
-        public void ModificaPin (string codice, string codiceNuovo)
+        public bool ModificaPin (string codice, string codiceNuovo)
         {
 
             if (codice == null || codice != codiceSblocco)
-                return;
-            codiceSegreto = codiceNuovo;
-        }
-
-        public void SetVuoto()
-        {
-            vuoto = true;
+                return false;
+            else
+            {
+                codiceSegreto = codiceNuovo;
+                return true;
+            }
         }
 
         public void Apri(string codice)
@@ -74,14 +83,22 @@ namespace WinFormsApp1
             isOpen = false;
         }
 
-        public virtual double getValoreAssicurato(OggettoSegreto oggetto)
+        public virtual double getValoreAssicurato()
         {
-            return oggetto.ValoreAssicurato;
+            return OggettoContenuto.ValoreAssicurato;
         }
 
         public string getTipologia()
         {
-            return oggettoContenuto.GetType().ToString();
+            if (!vuoto)
+            {
+                if (oggettoContenuto is Chiavi) return "Chiave";
+                else if (oggettoContenuto is Documenti) return "Documento";
+                else if (oggettoContenuto is Gioielli) return "Gioello";
+                else if (oggettoContenuto is OggettoSegreto) return "Oggetto generico";
+                else return "Mistero";
+            }
+            else return "vuoto";
         }
 
     

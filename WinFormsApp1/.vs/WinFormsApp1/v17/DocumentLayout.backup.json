@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|f:\\mra\\informatica\\cl4\\cassettasicurezza\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|f:\\mra\\informatica\\cl4\\cassettasicurezza\\winformsapp1\\cassettadisicurezza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:cassettadisicurezza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|f:\\mra\\informatica\\cl4\\cassettasicurezza\\winformsapp1\\documenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:documenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|f:\\mra\\informatica\\cl4\\cassettasicurezza\\winformsapp1\\gioielli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:gioielli.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|f:\\mra\\informatica\\cl4\\cassettasicurezza\\winformsapp1\\oggettosegreto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:oggettosegreto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|f:\\mra\\informatica\\cl4\\cassettasicurezza\\winformsapp1\\chiavi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:chiavi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|f:\\mra\\informatica\\cl4\\cassettasicurezza\\winformsapp1\\cassettaspeciale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{036A4659-695E-46EE-B54E-86DF942643E2}|WinFormsApp1.csproj|solutionrelative:cassettaspeciale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CassettaSpeciale.cs",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\CassettaSpeciale.cs",
+              "RelativeDocumentMoniker": "CassettaSpeciale.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\CassettaSpeciale.cs",
+              "RelativeToolTip": "CassettaSpeciale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:14:57.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Chiavi.cs",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Chiavi.cs",
+              "RelativeDocumentMoniker": "Chiavi.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Chiavi.cs",
+              "RelativeToolTip": "Chiavi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:14:49.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Gioielli.cs",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Gioielli.cs",
+              "RelativeDocumentMoniker": "Gioielli.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Gioielli.cs",
+              "RelativeToolTip": "Gioielli.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:14:11.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Documenti.cs",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Documenti.cs",
+              "RelativeDocumentMoniker": "Documenti.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Documenti.cs",
+              "RelativeToolTip": "Documenti.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T11:56:54.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OggettoSegreto.cs",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\OggettoSegreto.cs",
+              "RelativeDocumentMoniker": "OggettoSegreto.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\OggettoSegreto.cs",
+              "RelativeToolTip": "OggettoSegreto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T11:50:14.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T11:12:57.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CassettaDiSicurezza.cs",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\CassettaDiSicurezza.cs",
+              "RelativeDocumentMoniker": "CassettaDiSicurezza.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\CassettaDiSicurezza.cs",
+              "RelativeToolTip": "CassettaDiSicurezza.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAuwEUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T11:02:06.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "F:\\MRA\\Informatica\\cl4\\CassettaSicurezza\\WinFormsApp1\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T11:01:39.325Z",
+              "EditorCaption": " [Progettazione]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

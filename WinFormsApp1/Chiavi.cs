@@ -16,6 +16,7 @@ namespace WinFormsApp1
             set { isDigitalKey = value; }
         }
 
+        public override double ValoreAssicurato => Valore * 1000;
         public double CalcolaValoreAssicurato()
         {
             return Valore * 1000;

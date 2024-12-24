@@ -48,11 +48,19 @@
             buttonOpen = new Button();
             labelState = new Label();
             groupBox3 = new GroupBox();
+            comboBoxKeyType = new ComboBox();
+            label3 = new Label();
+            label2 = new Label();
             textBoxType = new TextBox();
             comboBoxObj = new ComboBox();
             buttonRemove = new Button();
             buttonAdd = new Button();
             labelObject = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            labelValue = new Label();
+            label6 = new Label();
+            labelAssicurazione = new Label();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -227,8 +235,9 @@
             buttoneditPIN.Name = "buttoneditPIN";
             buttoneditPIN.Size = new Size(98, 23);
             buttoneditPIN.TabIndex = 2;
-            buttoneditPIN.Text = "modifica PIN";
+            buttoneditPIN.Text = "Modifica PIN";
             buttoneditPIN.UseVisualStyleBackColor = true;
+            buttoneditPIN.Click += buttoneditPIN_Click;
             // 
             // buttonClose
             // 
@@ -254,7 +263,7 @@
             // 
             labelState.AutoSize = true;
             labelState.Font = new Font("Segoe UI", 48F, FontStyle.Bold, GraphicsUnit.Point);
-            labelState.Location = new Point(305, 247);
+            labelState.Location = new Point(673, 34);
             labelState.Name = "labelState";
             labelState.Size = new Size(115, 86);
             labelState.TabIndex = 17;
@@ -262,6 +271,9 @@
             // 
             // groupBox3
             // 
+            groupBox3.Controls.Add(comboBoxKeyType);
+            groupBox3.Controls.Add(label3);
+            groupBox3.Controls.Add(label2);
             groupBox3.Controls.Add(textBoxType);
             groupBox3.Controls.Add(comboBoxObj);
             groupBox3.Controls.Add(buttonRemove);
@@ -271,13 +283,40 @@
             groupBox3.Size = new Size(352, 132);
             groupBox3.TabIndex = 17;
             groupBox3.TabStop = false;
-            groupBox3.Text = "Controlli Cassetta";
+            groupBox3.Text = "Gestione contenuto";
+            // 
+            // comboBoxKeyType
+            // 
+            comboBoxKeyType.FormattingEnabled = true;
+            comboBoxKeyType.Items.AddRange(new object[] { "Elettronica", "Fisica" });
+            comboBoxKeyType.Location = new Point(204, 29);
+            comboBoxKeyType.Name = "comboBoxKeyType";
+            comboBoxKeyType.Size = new Size(136, 23);
+            comboBoxKeyType.TabIndex = 4;
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(6, 55);
+            label3.Name = "label3";
+            label3.Size = new Size(51, 15);
+            label3.TabIndex = 5;
+            label3.Text = "Oggetto";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(204, 55);
+            label2.Name = "label2";
+            label2.Size = new Size(30, 15);
+            label2.TabIndex = 4;
+            label2.Text = "Tipo";
             // 
             // textBoxType
             // 
-            textBoxType.Location = new Point(182, 29);
+            textBoxType.Location = new Point(204, 29);
             textBoxType.Name = "textBoxType";
-            textBoxType.Size = new Size(158, 23);
+            textBoxType.Size = new Size(136, 23);
             textBoxType.TabIndex = 3;
             // 
             // comboBoxObj
@@ -288,6 +327,7 @@
             comboBoxObj.Name = "comboBoxObj";
             comboBoxObj.Size = new Size(132, 23);
             comboBoxObj.TabIndex = 2;
+            comboBoxObj.SelectedIndexChanged += comboBoxObj_SelectedIndexChanged;
             // 
             // buttonRemove
             // 
@@ -312,17 +352,70 @@
             // labelObject
             // 
             labelObject.AutoSize = true;
-            labelObject.Location = new Point(574, 291);
+            labelObject.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            labelObject.Location = new Point(801, 144);
             labelObject.Name = "labelObject";
             labelObject.Size = new Size(22, 15);
             labelObject.TabIndex = 18;
             labelObject.Text = "---";
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(685, 144);
+            label4.Name = "label4";
+            label4.Size = new Size(75, 15);
+            label4.TabIndex = 19;
+            label4.Text = "Stato interno";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(685, 180);
+            label5.Name = "label5";
+            label5.Size = new Size(56, 15);
+            label5.TabIndex = 21;
+            label5.Text = "Valore (€)";
+            // 
+            // labelValue
+            // 
+            labelValue.AutoSize = true;
+            labelValue.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            labelValue.Location = new Point(801, 180);
+            labelValue.Name = "labelValue";
+            labelValue.Size = new Size(22, 15);
+            labelValue.TabIndex = 20;
+            labelValue.Text = "---";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(685, 210);
+            label6.Name = "label6";
+            label6.Size = new Size(96, 15);
+            label6.TabIndex = 23;
+            label6.Text = "Assicurazione (€)";
+            // 
+            // labelAssicurazione
+            // 
+            labelAssicurazione.AutoSize = true;
+            labelAssicurazione.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
+            labelAssicurazione.Location = new Point(801, 210);
+            labelAssicurazione.Name = "labelAssicurazione";
+            labelAssicurazione.Size = new Size(22, 15);
+            labelAssicurazione.TabIndex = 22;
+            labelAssicurazione.Text = "---";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(642, 378);
+            ClientSize = new Size(928, 378);
+            Controls.Add(label6);
+            Controls.Add(labelAssicurazione);
+            Controls.Add(label5);
+            Controls.Add(labelValue);
+            Controls.Add(label4);
             Controls.Add(labelObject);
             Controls.Add(groupBox3);
             Controls.Add(labelState);
@@ -368,5 +461,13 @@
         private Button buttonRemove;
         private Button buttonAdd;
         private Label labelObject;
+        private ComboBox comboBoxKeyType;
+        private Label label3;
+        private Label label2;
+        private Label label4;
+        private Label label5;
+        private Label labelValue;
+        private Label label6;
+        private Label labelAssicurazione;
     }
 }
